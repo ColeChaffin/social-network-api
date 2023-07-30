@@ -1,5 +1,5 @@
 // Import the User model from the ../models/User.js file
-const User = require('../models/User.js');
+const User = require('.user.js');
 
 module.exports = {
     // GET all users

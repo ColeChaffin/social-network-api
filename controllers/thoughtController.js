@@ -1,9 +1,9 @@
 // Import the 'add' function from the ../models/Reaction.js file
-const { add } = require('../models/Reaction.js');
+const { add } = require('.reaction.js');
 // Import the Thought model from the ../models/Thought.js file
-const Thought = require('../models/Thought.js');
+const Thought = require('.thought.js');
 // Import the User model from the ../models/User.js file
-const User = require('../models/User.js');
+const User = require('..user.js');
 
 module.exports = {
     // Retrieve all thoughts
